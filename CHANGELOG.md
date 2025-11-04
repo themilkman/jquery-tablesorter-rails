@@ -5,6 +5,7 @@ Changelog
 
 * Update copyright
 * Upgrade tablesorter to v2.32.0
+* Update Readme
 
 #### v1.27.2 (2020-04-16)
 
