@@ -1,4 +1,4 @@
-/*! TableSorter (FORK) v2.31.3 *//*
+/*! TableSorter (FORK) v2.32.0 *//*
 * Client-side table sorting with ease!
 * @requires jQuery v1.2.6+
 *
@@ -22,7 +22,7 @@
 	'use strict';
 	var ts = $.tablesorter = {
 
-		version : '2.31.3',
+		version : '2.32.0',
 
 		parsers : [],
 		widgets : [],
@@ -33,7 +33,7 @@
 			widthFixed       : false,      // adds colgroup to fix widths of columns
 			showProcessing   : false,      // show an indeterminate timer icon in the header when the table is sorted or filtered.
 
-			headerTemplate   : '{content}',// header layout template (HTML ok); {content} = innerHTML, {icon} = <i/> // class from cssIcon
+			headerTemplate   : '{content}',// header layout template (HTML ok); {content} = innerHTML, {icon} = <i></i> // class from cssIcon
 			onRenderTemplate : null,       // function( index, template ) { return template; }, // template is a string
 			onRenderHeader   : null,       // function( index ) {}, // nothing to return
 
@@ -49,7 +49,7 @@
 			resort           : true,       // default setting to trigger a resort after an 'update', 'addRows', 'updateCell', etc has completed
 
 			// *** sort options
-			headers          : {},         // set sorter, string, empty, locked order, sortInitialOrder, filter, etc.
+			headers          : null,       // set sorter, string, empty, locked order, sortInitialOrder, filter, etc.
 			ignoreCase       : true,       // ignore case while sorting
 			sortForce        : null,       // column(s) first sorted; always applied
 			sortList         : [],         // Initial sort order; applied initially; updated when manually sorted

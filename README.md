@@ -4,7 +4,7 @@
 
 Simple integration of jQuery tablesorter ([Mottie's fork]) into the asset pipeline.
 
-Current tablesorter version: 2.31.3 (2020-03-03) [documentation]
+Current tablesorter version: 2.32.0 (2024-08-13) [documentation]
 
 Any issue associated with the js/css files, please report to [Mottie's fork].
 
