@@ -1,6 +1,10 @@
 Changelog
 ===
 
+### Unreleased
+
+* Update copyright
+
 #### v1.27.2 (2020-04-16)
 
 * Upgrade tablesorter to v2.31.3
